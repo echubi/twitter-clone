@@ -4,12 +4,12 @@ body {
 header {
 	position: relative;
 	display: flex;
-	background-color: #FFF;
 	overflow: hidden;
+	background-color: #FFF;
 	border-bottom: 1px solid #ABB8C1;
 }
 header img {
-  	width: 28px;
+  	/*width: 28px;*/
   	height: 28px;
 }
 
@@ -20,8 +20,79 @@ header h5 {
 header a{
  	text-decoration: none;
  }
-li {
-	display: inline;
-	padding: 15px;
+.home {
+	padding-left: 100px;
+ 	padding-right: 15px;
+	display: flex;
+	align-items: center;
 }
- 
+.ring {
+	padding-left: 15px;
+ 	padding-right: 10px;
+ 	display: flex;
+ 	align-items: center; 
+}
+.mail {
+	padding-left: 15px;
+  	padding-right: 10px;
+  	display: flex;
+  	align-items: center;
+}
+.logo {
+	float: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.logo img {
+ 	height: 18px;
+  	width: 23px;
+}
+header .search {
+	height: 30px;
+	width: 230px;
+	margin: 10px 0 0 auto;
+	border:1px solid #e6eaed;
+	border-radius: 16px;
+	background-image: url("baseline-search-24px.svg");
+	background-repeat: no-repeat;
+	background-position: right center;
+	outline: none;
+}
+::placeholder {
+  	font-size: 12px;
+  	padding-left: 10px;
+}
+.profile img{
+	width: 30px;
+  	height: 30px;
+  	margin-left:  10px;
+  	margin-top: 10px;
+  	border-radius: 50%;
+}
+.btn {
+    height: 30px;
+    font-size: 13px;
+    margin-left: 10px;
+	margin-right: 5px;
+	margin-top: 10px;
+	padding-left: 18px;
+	padding-right: 18px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	border-radius: 16px;
+	border:1px solid #e6eaed;
+	background-color: #BBC6CD;
+	color: #FFF;
+}
+
+
+main {
+	display: grid;
+	grid-template-rows: auto;
+  	grid-template-columns: 1fr 2fr 1fr;
+  	grid-template-areas: "left-column middle-column right-column";
+  	grid-column-gap: 10px;
+  	background-color: #E6ECF0;
+}
