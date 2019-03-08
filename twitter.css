@@ -96,3 +96,14 @@ main {
   	grid-column-gap: 10px;
   	background-color: #E6ECF0;
 }
+
+.left {
+	display: grid;
+  	grid-template-rows: 250px auto;
+  	grid-template-columns: auto;
+  	grid-template-areas: "my-profile"
+                      	 "trends-for-you";
+  	grid-row-gap: 20px;
+  	margin-left: 100px;
+  	grid-area: left-column;
+}
