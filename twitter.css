@@ -1,16 +1,14 @@
+body {
+	font-family: Helvetica Neue;s
+}
 header {
 	position: relative;
 	display: flex;
+	background-color: #FFF;
+	overflow: hidden;
+	border-bottom: 1px solid #ABB8C1;
 }
-li {
-	font-family: Helvetica Neue;
-	display: inline;
-	padding: 15px;
-}
- li a{
- 	text-decoration: none;
- }
-.wrapper img {
+header img {
   	width: 28px;
   	height: 28px;
 }
@@ -19,3 +17,11 @@ header h5 {
   color: #62737c;
   padding-left: 2px;
 }
+header a{
+ 	text-decoration: none;
+ }
+li {
+	display: inline;
+	padding: 15px;
+}
+ 
