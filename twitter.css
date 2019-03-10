@@ -155,3 +155,20 @@ main {
 .pro .push {
 	padding-left: 30px;
 }
+
+.trends {
+  height: 530px;
+  width: 300px;
+  background-color: #FFF;
+  grid-area: trends;
+}
+.trends .you {
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.trends .chg {
+  font-size: 13px;
+  color: #ABB8C1;
+  padding-bottom: 10px;
+}
