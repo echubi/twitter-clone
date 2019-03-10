@@ -9,15 +9,15 @@ header {
 	border-bottom: 1px solid #ABB8C1;
 }
 header img {
-  	/*width: 28px;*/
+  	width: 28px;
   	height: 28px;
 }
 
 header h5 {
-  color: #62737c;
-  padding-left: 2px;
+	color: #62737c;
+  	padding-left: 2px;
 }
-header a{
+a {
  	text-decoration: none;
  }
 .home {
@@ -127,4 +127,28 @@ main {
 	margin-top: 85px;
 	border-radius: 50px;
 	border: 2px solid #FFF;
+}
+.pro h3 {
+  position: absolute;
+  padding-top: 110px;
+  padding-left: 100px;
+  color: #000;
+}
+.pro p {
+  position: relative;
+  padding-top: 145px;
+  padding-left: 100px;
+  color: #ABB8C1;
+}
+.pro h5 {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: #62737c;
+}
+.pro h4 {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 20px;
+  color: #ABB8C1;
 }
