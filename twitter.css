@@ -136,7 +136,7 @@ main {
 }
 .pro p {
   position: relative;
-  padding-top: 145px;
+  padding-top: 138px;
   padding-left: 100px;
   color: #ABB8C1;
 }
@@ -151,4 +151,7 @@ main {
   padding-left: 10px;
   padding-right: 20px;
   color: #ABB8C1;
+}
+.pro .push {
+	padding-left: 30px;
 }
