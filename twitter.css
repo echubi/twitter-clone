@@ -1,6 +1,9 @@
 body {
 	font-family: Helvetica Neue;s
 }
+p{
+	line-height: 0.3;
+}
 header {
 	position: relative;
 	display: flex;
@@ -185,4 +188,165 @@ main {
   	padding-left: 10px;
   	padding-bottom: 10px;
   	color: #62737c;
+}
+
+
+.middle {
+  	display: grid;
+  	grid-template-rows:  auto auto auto auto auto;
+  	grid-template-columns: auto;
+	margin-top: 10px;
+  	grid-area: middle;
+}
+
+.what {
+  	width: 600px;
+  	height: 60px;
+  	display: inline;
+  	background-color: #F6F7F8;
+}
+
+.what img {
+  	width: 40px;
+  	height: 40px;
+  	position: absolute;
+  	margin-left: 30px;
+  	margin-top: 10px;
+  	border-radius: 50%;
+}
+
+.what input {
+	width: 500px;
+	height: 34px;
+	position: relative;
+	margin-left: 80px;
+	margin-top: 10px;
+	border-radius: 10px;
+	border:1px solid #e6eaed;
+	background-image: url("outline-image-24px.svg");
+	background-repeat: no-repeat;
+	background-position: right ;
+	outline: none;
+}
+.see {
+	width: 600px;
+  	height: 45px;
+  	border: 1px solid #eaedef;
+  	background-color: #F6F7F8;
+}
+.see p {
+	font-size: 14px;
+  	text-align: center;
+  	padding-top: 5px;
+  	color: #c5d1d8;
+}
+.middle .section {
+	width: 600px;
+  	height: 180px;
+  	border: 1px solid #e6eaed;
+  	background-color: #FFF;
+}
+.middle .user {
+  	height: 15px;
+ 	width: 15px;
+  	position: absolute;
+  	margin-left: 90px;
+  	margin-top: 10px;
+}
+.middle .ref {
+	font-size: 12px;
+  	position: relative;
+  	line-height: 0.0;
+  	padding-top: 7px;
+  	padding-bottom: 0px;
+  	margin-left: 110px;
+  	margin-bottom: 0px;
+  	color: #62737c;
+}
+
+.middle img {
+  	width: 50px;
+  	height: 50px;
+  	position: absolute;
+  	margin-left: 30px;
+  	margin-top: 30px;
+  	border-radius: 50%;
+}
+.middle h4 {
+	position: absolute;
+  	margin-left: 90px;
+  	padding-top: 15px;
+}
+.middle .cal {
+	font-size: 14px;
+  	position: absolute;
+  	margin-left: 180px;
+  	padding-top: 28px;	
+  	padding-bottom: 100px;
+  	color: #ABB8C1;
+}
+.middle .luc {
+	font-size: 14px;
+  	position: absolute;
+  	margin-left: 90px;
+  	padding-top: 40px;
+  	line-height: 2.0;
+}
+.middle .com {
+  	width: 20px;
+  	height: 20px;
+  	position: absolute;
+  	margin-left: 90px;
+  	margin-top: 130px;
+}
+
+.middle .retweet {
+  	width: 22px;
+  	height: 22px;
+  	position: absolute;
+  	margin-left: 170px;
+ 	margin-top: 130px;
+}
+.middle .like {
+  	width: 17px;
+  	height: 17px;
+  	position: absolute;
+  	margin-left: 250px;
+ 	margin-top: 130px;
+}
+.middle .c{
+  	font-size: 12px;
+  	position: absolute;
+  	margin-left: 120px;
+  	margin-top: 140px;
+}
+.middle .r{
+  	font-size: 12px;
+  	position: absolute;
+  	margin-left: 200px;
+  	margin-top: 140px;
+}
+.middle .l{
+  	font-size: 12px;
+  	position: absolute;
+  	margin-left: 275px;
+  	margin-top: 140px;
+}
+
+.right {
+  display: grid;
+  grid-template-rows: 370px auto;
+  grid-template-columns: auto;
+  grid-template-areas: "who"
+                       "advert";
+  grid-row-gap: 20px;
+  margin-right: 100px;
+  grid-area: right;
+}
+.follow {
+	width: 300px;
+  	height: 370px;
+  	margin-top: 10px;
+  	grid-area: who;
+  	background-color: #FFF;
 }
