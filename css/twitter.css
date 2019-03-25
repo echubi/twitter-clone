@@ -13,7 +13,6 @@ header {
 }
 header img {
   width: 28px;
-  min-width: 10px;
   height: 28px;
 }
 
@@ -59,7 +58,7 @@ header .search {
 	margin: 10px 0 0 auto;
 	border:1px solid #e6eaed;
 	border-radius: 16px;
-	background-image: url("baseline-search-24px.svg");
+	/*background-image: url("baseline-search-24px.svg");*/
 	background-repeat: no-repeat;
 	background-position: right center;
 	outline: none;
@@ -224,7 +223,7 @@ main {
 	margin-top: 10px;
 	border-radius: 10px;
 	border:1px solid #e6eaed;
-	background-image: url("outline-image-24px.svg");
+	/*background-image: url("outline-image-24px.svg");*/
 	background-repeat: no-repeat;
 	background-position: right ;
 	outline: none;
@@ -242,7 +241,7 @@ main {
   color: #c5d1d8;
 }
 .middle .section {
-	width: 0px;
+	width: 600px;
   height: 180px;
   border: 1px solid #e6eaed;
   background-color: #FFF;
