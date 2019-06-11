@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica Neue;s
+	font-family: Helvetica Neue;
 }
 p{
 	line-height: 0.3;
@@ -202,7 +202,7 @@ main {
 .what {
   width: 600px;
   height: 60px;
-  display: inline;
+  display: flex;
   background-color: #F6F7F8;
 }
 
